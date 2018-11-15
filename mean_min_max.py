@@ -4,7 +4,8 @@ import matplotlib.pyplot
 
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
-fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+#change the size
+fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
 
 axes1 = fig.add_subplot(1, 3, 1)
 axes2 = fig.add_subplot(1, 3, 2)
